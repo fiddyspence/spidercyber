@@ -31,12 +31,9 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bcyber(.*)\b/g, "spider$1");
-	v = v.replace(/\bCyber(.*)\b/g, "Spider$1");
-	v = v.replace(/\bcyberspace\b/g, "spiderspace");
-	v = v.replace(/\bCyberspace\b/g, "Spiderspace");
-	v = v.replace(/\bcyber\b/g, "spider");
-	v = v.replace(/\bCyber\b/g, "Spider");
+	v = v.replace(/cyber/g, "spider");
+	v = v.replace(/Cyber/g, "Spider");
+	v = v.replace(/CYBER/g, "SPIDER");
 	
 	textNode.nodeValue = v;
 }

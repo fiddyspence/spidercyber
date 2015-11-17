@@ -6,9 +6,9 @@ cyber-spider
 Chrome extension that replaces occurrences of 'cyber' with 'spider' - forked from cloud-to-butt
 
 
-[Direct download of crx file](https://github.com/panicsteve/cloud-to-butt/blob/master/CloudToButt.crx?raw=true)
+[Direct download of crx file](https://github.com/fiddyspence/spidercyber/blob/master/SpiderCyber.crx?raw=true)
 
 Installation
 ------------
 
-In Chrome, choose Window > Extensions.  Drag CloudToButt.crx into the page that appears.
+In Chrome, choose Window > Extensions.  Drag SpiderCyber.crx into the page that appears.
